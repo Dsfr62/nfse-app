@@ -205,7 +205,7 @@ export function IssueView() {
         </Button>
       </header>
 
-      <nav className="flex flex-wrap gap-2 rounded-lg border bg-white p-2 shadow-soft">
+      <nav className="tab-strip rounded-lg border bg-white p-2 shadow-soft">
         {steps.map((item) => (
           <Button
             key={item.id}
